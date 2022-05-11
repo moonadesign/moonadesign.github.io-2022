@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
-@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 * { box-sizing: border-box; }
 
@@ -17,7 +16,10 @@ body {
 }
 
 h1,
-h2 { font-weight: inherit ;}
+h2 {
+  font-weight: inherit;
+  letter-spacing: -0.02em;
+}
 
 h1,
 h2,
@@ -25,7 +27,7 @@ p { margin: 0; }
 
 .lede {
   font-size: 24px;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.02em;
   line-height: 1.2;
 }
 
